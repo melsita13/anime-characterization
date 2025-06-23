@@ -104,3 +104,7 @@
     If DeepDanbooru returns “Unknown Character”,
     we’ll fallback to comparing the uploaded image with your character_db/ using CLIP embedding similarity.
     
+
+**Datsets from hugging face**
+    api: curl -X GET \
+         "https://datasets-server.huggingface.co/rows?dataset=lowres%2Fanime&config=default&split=train&offset=0&length=100"
